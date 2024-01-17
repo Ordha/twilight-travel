@@ -179,18 +179,18 @@ section {
 }
 
 /* Choose section */
-section{
+section {
     margin: 25px 0;
 }
 
-.cho{
+.cho {
     text-align: center;
     color: #131318;
     font-size: 40px;
     font-weight: 800;
 }
 
-.cho1{
+.cho1 {
     text-align: center;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -247,9 +247,96 @@ section{
     font-weight: 400;
 }
 
+/* blur section */
 
+section {
+    margin: 25px 0;
+}
 
+.blu {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
 
+.blu1 {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.area1 {
+    background-image: url('../Images/Group39.png');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.i1>img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.i1 {
+    display: flex;
+    gap: 20px;
+}
+
+.rel1 {
+    position: relative;
+}
+
+.con1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px 50px;
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: 650px;
+
+}
+
+.price1 {
+    margin: 16px 0;
+}
+
+.pr1 {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    margin: 24px 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.s1 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.s2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.i11 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 
 @media screen and (max-width:600px) {
@@ -318,14 +405,17 @@ section{
         display: flex;
         flex-direction: column;
         height: auto;
-        
+
     }
-    .color1, .color2{
+
+    .color1,
+    .color2 {
         width: 100%;
         margin: 10px 0;
         height: auto;
     }
-    .color3{
+
+    .color3 {
         margin-left: 0;
         width: 100%;
         height: auto;
