@@ -179,6 +179,7 @@ section {
 }
 
 /* Choose section */
+
 section {
     margin: 25px 0;
 }
@@ -273,6 +274,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    border-radius: 10px;
 }
 
 .i1>img {
@@ -298,11 +300,15 @@ section {
     position: absolute;
     top: 80px;
     left: 650px;
+    border-radius: 10px;
 
 }
 
 .price1 {
     margin: 16px 0;
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .pr1 {
@@ -338,6 +344,189 @@ section {
     line-height: 26px;
 }
 
+
+
+/* 2 */
+
+.rel2 {
+    position: relative;
+}
+
+.con2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px 50px;
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    border-radius: 10px;
+
+}
+
+.price2 {
+    margin: 16px 0;
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.pr2 {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    margin: 24px 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.s1 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.s2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.i22 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.rel2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.area2 {
+    background-image: url('../Images/Group40.png');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.i2>img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.i2 {
+    display: flex;
+    gap: 20px;
+}
+
+/* button section */
+
+section {
+    margin: 25px 0;
+}
+
+.b11 {
+
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 21px;
+    margin-left: 590px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* place section */
+section {
+    margin: 25px 0;
+}
+
+.place2 {
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.head1 {
+    width: 100%;
+    height: 400px;
+}
+
+.head2 {
+    background-image: url('../Images/Group40089.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.place {
+    position: relative;
+}
+
+.head2t {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.pl1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.pl2 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.pl3 {
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+li {
+    color: #131318;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 @media screen and (max-width:600px) {
     .image-section {
@@ -420,5 +609,53 @@ section {
         width: 100%;
         height: auto;
     }
+
+    .rel1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+
+    }
+
+    .con1 {
+
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        right: 10px;
+        height: auto;
+        width: auto;
+
+    }
+
+    .rel2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+    }
+
+    .con2 {
+
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        right: 10px;
+        height: auto;
+        width: auto;
+    }
+
+    .b11 {
+        margin-left: 140px;
+    }
+
+    .place2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 
 }
